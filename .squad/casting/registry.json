@@ -1,0 +1,19 @@
+{
+  "agents": {
+    "danny": { "persistent_name": "Danny", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "Lead" },
+    "rusty": { "persistent_name": "Rusty", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "Frontend Developer" },
+    "linus": { "persistent_name": "Linus", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "Backend Developer" },
+    "turk": { "persistent_name": "Turk", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "Integrations Developer" },
+    "livingston": { "persistent_name": "Livingston", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "Tester" },
+    "saul": { "persistent_name": "Saul", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "CISO" },
+    "frank": { "persistent_name": "Frank", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "DPO" },
+    "reuben": { "persistent_name": "Reuben", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "Technology Advisor" },
+    "basher": { "persistent_name": "Basher", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "Helpdesk Specialist" },
+    "yen": { "persistent_name": "Yen", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "UX/UI Designer" },
+    "virgil": { "persistent_name": "Virgil", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "AI Strategy Advisor" },
+    "tess": { "persistent_name": "Tess", "universe": "Ocean's Eleven", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "Israeli Market Lead" },
+    "isabel": { "persistent_name": "Isabel", "universe": "Ocean's Twelve", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "SEO Specialist" },
+    "roman": { "persistent_name": "Roman", "universe": "Ocean's Thirteen", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "GEO Specialist" },
+    "abigail": { "persistent_name": "Abigail", "universe": "Ocean's Thirteen", "created_at": "2026-05-23", "legacy_named": false, "status": "active", "role": "DevOps / Platform Engineer" }
+  }
+}

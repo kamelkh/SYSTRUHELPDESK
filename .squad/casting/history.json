@@ -1,0 +1,16 @@
+{
+  "universe_usage_history": [
+    { "universe": "Ocean's Eleven", "used_at": "2026-05-23", "project": "SYSTRUHELPDESK", "names_used": ["Danny", "Rusty", "Linus", "Turk", "Livingston", "Saul", "Frank", "Reuben", "Basher", "Yen", "Virgil", "Tess"] },
+    { "universe": "Ocean's Twelve", "used_at": "2026-05-23", "project": "SYSTRUHELPDESK", "note": "Overflow — primary universe capacity (14) reached", "names_used": ["Isabel"] },
+    { "universe": "Ocean's Thirteen", "used_at": "2026-05-23", "project": "SYSTRUHELPDESK", "note": "Overflow — diegetic expansion", "names_used": ["Roman", "Abigail"] }
+  ],
+  "assignment_cast_snapshots": {
+    "SYSTRUHELPDESK-2026-05-23": {
+      "assignment_id": "SYSTRUHELPDESK-2026-05-23",
+      "created_at": "2026-05-23",
+      "universe": "Ocean's Eleven",
+      "overflow_universes": ["Ocean's Twelve", "Ocean's Thirteen"],
+      "agents": ["danny", "rusty", "linus", "turk", "livingston", "saul", "frank", "reuben", "basher", "yen", "virgil", "tess", "isabel", "roman", "abigail"]
+    }
+  }
+}
