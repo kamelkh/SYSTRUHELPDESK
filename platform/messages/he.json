@@ -1,0 +1,70 @@
+{
+  "common": {
+    "appName": "SYSTRU TECHNOLOGY",
+    "tagline": "פתרונות IT, סייבר ופרטיות לעסקים",
+    "ctaPrimary": "קבל ייעוץ חינם",
+    "ctaSecondary": "מלא שאלון התאמה",
+    "phone": "טלפון",
+    "email": "אימייל",
+    "whatsapp": "WhatsApp",
+    "submit": "שלח",
+    "loading": "טוען...",
+    "send": "שלח",
+    "cancel": "ביטול",
+    "save": "שמור",
+    "edit": "ערוך",
+    "delete": "מחק",
+    "close": "סגור",
+    "next": "הבא",
+    "back": "חזור",
+    "search": "חיפוש"
+  },
+  "nav": {
+    "home": "בית",
+    "services": "שירותים",
+    "helpdesk": "Helpdesk AI",
+    "diagnostic": "שאלון התאמה",
+    "about": "אודות",
+    "contact": "צור קשר",
+    "login": "התחברות"
+  },
+  "home": {
+    "heroTitle": "שותף ה-IT, הסייבר והפרטיות של העסק שלך",
+    "heroSubtitle": "ניהול IT, סייבר, CISO ו-DPO כשירות — תחת קורת גג אחת. אבטחה, רגולציה ושקט נפשי לעסק שלך.",
+    "heroCta1": "קבל ייעוץ ראשוני חינם",
+    "heroCta2": "מלא שאלון התאמה",
+    "trustBadge": "מאות לקוחות סומכים עלינו"
+  },
+  "diagnostic": {
+    "title": "שאלון התאמת שירות",
+    "subtitle": "ענה על מספר שאלות קצרות ונחזור עם הצעת השירות הטובה ביותר עבורך",
+    "start": "התחל",
+    "complete": "סיים",
+    "thankYou": "תודה! חזרנו אליך בקרוב.",
+    "step": "שלב {current} מתוך {total}"
+  },
+  "auth": {
+    "loginTitle": "התחברות לפלטפורמה",
+    "loginSubtitle": "כניסה לאזור צוות SYSTRU",
+    "emailLabel": "אימייל",
+    "passwordLabel": "סיסמה",
+    "loginButton": "התחבר",
+    "logout": "התנתק",
+    "loginError": "אימייל או סיסמה שגויים"
+  },
+  "admin": {
+    "dashboard": "לוח בקרה",
+    "leads": "לידים",
+    "customers": "לקוחות",
+    "quotes": "הצעות מחיר",
+    "catalog": "קטלוג שירותים",
+    "assessments": "סקרי סיכונים",
+    "users": "משתמשים",
+    "settings": "הגדרות"
+  },
+  "footer": {
+    "rights": "כל הזכויות שמורות",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תקנון"
+  }
+}

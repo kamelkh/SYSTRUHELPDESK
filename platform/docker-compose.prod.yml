@@ -1,0 +1,61 @@
+version: "3.9"
+
+# Production docker-compose for VPS deployment
+# Usage on server:
+#   cp .env.example .env.prod    # fill real secrets
+#   docker compose -f docker-compose.prod.yml --env-file .env.prod up -d --build
+#
+# Behind it: Nginx + Certbot (see docs/DEPLOYMENT.md).
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: systru-mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: systru
+    volumes:
+      - mongo_data:/data/db
+      - mongo_config:/data/configdb
+    networks:
+      - systru-net
+    # No host port published — only the app talks to Mongo over the docker network.
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: systru-app
+    restart: unless-stopped
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: production
+      MONGODB_URI: mongodb://${MONGO_ROOT_USER}:${MONGO_ROOT_PASSWORD}@mongo:27017/systru?authSource=admin
+      AUTH_SECRET: ${AUTH_SECRET}
+      NEXTAUTH_URL: ${APP_URL}
+      APP_URL: ${APP_URL}
+      APP_NAME: ${APP_NAME}
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT}
+      SMTP_USER: ${SMTP_USER}
+      SMTP_PASS: ${SMTP_PASS}
+      SMTP_FROM_NAME: ${SMTP_FROM_NAME}
+      SMTP_FROM_EMAIL: ${SMTP_FROM_EMAIL}
+      ADMIN_EMAIL: ${ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      ADMIN_NAME: ${ADMIN_NAME}
+    ports:
+      - "127.0.0.1:3000:3000" # only expose on loopback; Nginx proxies in
+    networks:
+      - systru-net
+
+volumes:
+  mongo_data:
+  mongo_config:
+
+networks:
+  systru-net:
+    driver: bridge

@@ -1,0 +1,70 @@
+{
+  "common": {
+    "appName": "SYSTRU TECHNOLOGY",
+    "tagline": "IT, Cyber & Privacy Solutions for Business",
+    "ctaPrimary": "Get a Free Consultation",
+    "ctaSecondary": "Take the Diagnostic",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "send": "Send",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "next": "Next",
+    "back": "Back",
+    "search": "Search"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "helpdesk": "Helpdesk AI",
+    "diagnostic": "Diagnostic",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "home": {
+    "heroTitle": "Your IT, Cyber & Privacy Partner",
+    "heroSubtitle": "Managed IT, Cyber Security, CISO and DPO as a service — under one roof. Security, compliance and peace of mind for your business.",
+    "heroCta1": "Get a Free Consultation",
+    "heroCta2": "Take the Diagnostic",
+    "trustBadge": "Trusted by hundreds of businesses"
+  },
+  "diagnostic": {
+    "title": "Service Fit Diagnostic",
+    "subtitle": "Answer a few short questions and we'll come back with the best service recommendation for you",
+    "start": "Start",
+    "complete": "Finish",
+    "thankYou": "Thank you! We will contact you shortly.",
+    "step": "Step {current} of {total}"
+  },
+  "auth": {
+    "loginTitle": "Platform Login",
+    "loginSubtitle": "SYSTRU staff area",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "loginButton": "Sign in",
+    "logout": "Sign out",
+    "loginError": "Invalid email or password"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "leads": "Leads",
+    "customers": "Customers",
+    "quotes": "Quotes",
+    "catalog": "Service Catalog",
+    "assessments": "Risk Assessments",
+    "users": "Users",
+    "settings": "Settings"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms"
+  }
+}
